@@ -95,6 +95,8 @@ IP-MINIKUBE-SERVER
  ansible-playbook playbook.yaml --check
  ```
  
+ Run the playbook:
+ 
  ```bash
  ansible-playbook playbook.yaml
 ```
