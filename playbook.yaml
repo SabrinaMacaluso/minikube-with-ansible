@@ -8,7 +8,7 @@
         src: /home/ansibleadmin/your_directory/manifest.yaml
         dest: /home/muser/manifest.yaml
   
-    - name: Deploy ressources.yaml
+    - name: Deploy manifest.yaml
       command: "kubectl apply -f /home/muser/manifest.yaml"
       become: yes
       become_user: muser
