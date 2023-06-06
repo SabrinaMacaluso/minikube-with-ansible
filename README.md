@@ -54,7 +54,7 @@ Install the OpenSSH server:
 apt install openssh-server
 ```
 
-** Switch to the 'ansibleadmin' user:
+Switch to the 'ansibleadmin' user:
 
 ```bash
 sudo su - ansibleadmin
