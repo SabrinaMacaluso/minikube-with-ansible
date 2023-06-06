@@ -84,10 +84,21 @@ First create a hosts file and add the following:
 IP-MINIKUBE-SERVER
 ```
  
- Create the Playbook: You can also use the one provided in this repository, which accoomplishes two tasks:
+ Create the Playbook: You can also use the one provided in this repository, which carries out two tasks:
  
- * Copies the manifest.yaml file (containing deployment and service details) to the minikube server.
+ * Copies the manifest.yaml file (containing deployment and service details) to the minikube server. The 'src' and 'dest' specify the paths to your manifest file within your ansible and minikube host, respectively:
+ 
+ ```python
+ - name: Copy manifest.yaml
+      copy:
+        src: /home/ansibleadmin/your_directory/manifest.yaml
+        dest: /home/muser/manifest.yaml
+ ```
+ 
  * Runs the manifest file using the 'kubectl' command.
+ 
+ 
+
  
  Run the playbook for any errors:
  
