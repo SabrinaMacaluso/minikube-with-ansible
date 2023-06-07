@@ -60,7 +60,7 @@ Switch to the 'ansibleadmin' user:
 sudo su - ansibleadmin
 ```
 
-Copy your SSH keys to the Minikube server, with  <IP-MINIKUBE-SERVER> the IP of your minikube server ex 192.168.56.100 :
+Copy your SSH keys to the Minikube server. Replaca <IP-MINIKUBE-SERVER> with the IP address of your minikube server (e.g. 192.168.56.100):
 
 ```bash
 cd ~/.ssh 
