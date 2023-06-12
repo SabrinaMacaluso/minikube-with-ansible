@@ -1,6 +1,6 @@
 # Minikube with Ansible
 
-
+![minikubeansible](https://github.com/SabrinaMacaluso/DevOpsPlayground/assets/104983001/3b659fd7-3717-485a-ad12-3996dcada066)
 # Prerequisites
 
 * Ansible installed 
