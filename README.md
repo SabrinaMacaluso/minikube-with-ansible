@@ -113,9 +113,11 @@ IP-MINIKUBE-SERVER
 ```
  
 
+Get URL (for NodePort) to access the webapp:
 
-
-
+ ```bash
+minikube service nginx-service --url
+```
 
 
 
